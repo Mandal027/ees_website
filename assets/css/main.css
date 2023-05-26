@@ -1381,9 +1381,9 @@ section {
 .team .member .social {
   margin-top: 15px;
   margin-bottom: 10px;
-  display: flex;
+  display:inline-flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .team .member .social a {
