@@ -1704,20 +1704,21 @@ section {
   position: relative;
   background: var(--color-primary);
   padding: 60px 0 0 0;
-}
-
-.home {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bit-campus.png) center center;
   background-size: cover;
-  padding: 0px 0px;
   border-radius: 0px;
   overflow: hidden;
+  height: auto;
 }
 
-
-@media (min-width: 1365px) {
+@media (min-width: 1200px) {
   .home {
     background-attachment: fixed;
+    height: 75vh;
+  }
+  .home .icon-boxes{
+    position: relative;
+    top:75px;
   }
 }
 
@@ -1728,6 +1729,7 @@ section {
   margin-bottom: 10px;
   margin-top: 10px;
   color: #fff;
+  text-align: center;
 }
 
 .home p {
@@ -1778,6 +1780,7 @@ section {
 @media (max-width: 640px) {
   .home h2 {
     font-size: 36px;
+    text-align: center;
   }
 
   .home .btn-get-started,
@@ -1787,6 +1790,7 @@ section {
 }
 
 .home .icon-boxes {
+  position: relative;
   padding-bottom: 60px;
 }
 
@@ -1799,6 +1803,10 @@ section {
     right: 0;
     height: calc(50% + 20px);
     background-color: #fff;
+  }
+  .home h2 {
+    font-size: 36px;
+    text-align: center;
   }
 
 }
