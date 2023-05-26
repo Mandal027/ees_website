@@ -981,11 +981,11 @@ section {
 }
 
 
-.gallerys .gallery-wrap {
+.gallarys .gallary-wrap {
   padding-left: 10px;
 }
 
-.gallerys .gallery-item {
+.gallarys .gallary-item {
   box-sizing: content-box;
   padding: 10px;
   box-shadow: 0px 0 15px rgba(0, 0, 0, 0.1);
@@ -994,48 +994,48 @@ section {
   border-radius: 0px 10px 0px 10px;
 }
 
-.gallerys .gallery-item .gallery-img {
+.gallarys .gallary-item .gallary-img {
   width: 100%;
   height: 400px;
   border-radius: 10px;
 }
 
-.gallerys .gallery-item h3 {
+.gallarys .gallary-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #000;
 }
 
-.gallerys .gallery-item h4 {
+.gallarys .gallary-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0;
 }
 
-.gallerys .gallery-item .stars {
+.gallarys .gallary-item .stars {
   margin: 10px 0;
 }
 
-.gallerys .gallery-item .stars i {
+.gallarys .gallary-item .stars i {
   color: #ffc107;
   margin: 0 1px;
 }
 
-.gallerys .gallery-item .quote-icon-left,
-.gallerys .gallery-item .quote-icon-right {
+.gallarys .gallary-item .quote-icon-left,
+.gallarys .gallary-item .quote-icon-right {
   color: #009d8b;
   font-size: 26px;
   line-height: 0;
 }
 
-.gallerys .gallery-item .quote-icon-left {
+.gallarys .gallary-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
-.gallerys .gallery-item .quote-icon-right {
+.gallarys .gallary-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
@@ -1043,38 +1043,38 @@ section {
   transform: scale(-1, -1);
 }
 
-.gallerys .gallery-item p {
+.gallarys .gallary-item p {
   font-style: italic;
   margin: 15px auto 15px auto;
 }
 
-.gallerys .swiper-pagination {
+.gallarys .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.gallerys .swiper-pagination .swiper-pagination-bullet {
+.gallarys .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
 }
 
-.gallerys .swiper-pagination .swiper-pagination-bullet-active {
+.gallarys .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
 }
 
 @media (max-width: 767px) {
-  .gallerys .gallery-wrap {
+  .gallarys .gallary-wrap {
     padding-left: 0;
   }
 
-  .gallerys .gallery-item {
+  .gallarys .gallary-item {
     padding: 30px;
     margin: 15px;
   }
 
-  .gallerys .gallery-item .gallery-img {
+  .gallarys .gallary-item .gallary-img {
     position: static;
     left: auto;
   }
@@ -1280,7 +1280,7 @@ section {
   padding: 0;
 }
 
-.portfolio-details .portfolio-description .gallery-item {
+.portfolio-details .portfolio-description .gallary-item {
   padding: 30px 30px 0 30px;
   position: relative;
   background: white;
@@ -1288,7 +1288,7 @@ section {
   margin-bottom: 50px;
 }
 
-.portfolio-details .portfolio-description .gallery-item .gallery-img {
+.portfolio-details .portfolio-description .gallary-item .gallary-img {
   width: 90px;
   border-radius: 50px;
   border: 6px solid #fff;
@@ -1296,33 +1296,33 @@ section {
   margin: 0 10px 0 0;
 }
 
-.portfolio-details .portfolio-description .gallery-item h3 {
+.portfolio-details .portfolio-description .gallary-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 15px 0 5px 0;
   padding-top: 20px;
 }
 
-.portfolio-details .portfolio-description .gallery-item h4 {
+.portfolio-details .portfolio-description .gallary-item h4 {
   font-size: 14px;
   color: #6c757d;
   margin: 0;
 }
 
-.portfolio-details .portfolio-description .gallery-item .quote-icon-left,
-.portfolio-details .portfolio-description .gallery-item .quote-icon-right {
+.portfolio-details .portfolio-description .gallary-item .quote-icon-left,
+.portfolio-details .portfolio-description .gallary-item .quote-icon-right {
   color: #020e24;
   font-size: 26px;
   line-height: 0;
 }
 
-.portfolio-details .portfolio-description .gallery-item .quote-icon-left {
+.portfolio-details .portfolio-description .gallary-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
-.portfolio-details .portfolio-description .gallery-item .quote-icon-right {
+.portfolio-details .portfolio-description .gallary-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
@@ -1330,7 +1330,7 @@ section {
   transform: scale(-1, -1);
 }
 
-.portfolio-details .portfolio-description .gallery-item p {
+.portfolio-details .portfolio-description .gallary-item p {
   font-style: italic;
   margin: 0 0 15px 0 0 0;
   padding: 0;
