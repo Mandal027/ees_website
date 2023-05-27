@@ -1907,7 +1907,7 @@ section {
 }
 
 .notes .posts-list .post-img {
-  max-height: 240px;
+  max-height: 100%;
   margin: -30px -30px 15px -30px;
   overflow: hidden;
 }
@@ -2518,4 +2518,211 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+/* main background images */
+.bg-team {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/admin.jpg) center center;
+  background-size: cover;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .bg-team {
+    background-attachment: fixed;
+  }
+}
+
+.bg-design {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/admin.jpg) center center;
+  background-size: cover;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .bg-design {
+    background-attachment: fixed;
+  }
+}
+.bg-alumni {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/admin.jpg) center center;
+  background-size: cover;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .bg-alumni {
+    background-attachment: fixed;
+  }
+}
+.bg-edit {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/admin.jpg) center center;
+  background-size: cover;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .bg-edit {
+    background-attachment: fixed;
+  }
+}
+.bg-books {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/admin.jpg) center center;
+  background-size: cover;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .bg-books {
+    background-attachment: fixed;
+  }
+}
+.bg-events {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/admin.jpg) center center;
+  background-size: cover;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .bg-events {
+    background-attachment: fixed;
+  }
+}
+.bg-notes {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/admin.jpg) center center;
+  background-size: cover;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .bg-notes {
+    background-attachment: fixed;
+  }
+}
+.bg-pyqs {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/admin.jpg) center center;
+  background-size: cover;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .bg-pyqs {
+    background-attachment: fixed;
+  }
+}
+.bg-research {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/admin.jpg) center center;
+  background-size: cover;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .bg-research {
+    background-attachment: fixed;
+  }
+}
+.bg-sports {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/admin.jpg) center center;
+  background-size: cover;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .bg-sports {
+    background-attachment: fixed;
+  }
+}
+.bg-training {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/admin.jpg) center center;
+  background-size: cover;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .bg-training {
+    background-attachment: fixed;
+  }
+}
+.bg-tap {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/admin.jpg) center center;
+  background-size: cover;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .bg-tap {
+    background-attachment: fixed;
+  }
 }
