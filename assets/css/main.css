@@ -1368,14 +1368,14 @@ section {
   font-style: italic;
   display: block;
   font-size: 14px;
-  color: #6c757d;
+  color: #000000;
 }
 
 .team .member p {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
-  color: #6c757d;
+  color: #000000;
 }
 
 .team .member .social {
@@ -1387,7 +1387,7 @@ section {
 }
 
 .team .member .social a {
-  color: #a2a2a2;
+  color: #000000;
   transition: 0.3s;
   border-radius: 50%;
   width: 40px;
@@ -1399,8 +1399,8 @@ section {
 }
 
 .team .member .social a:hover {
-  color: var(--color-primary);
-  border-color: var(--color-primary);
+  color: #f96f59;
+  border-color: #f96f59;
 }
 
 .team .member .social i {
@@ -1641,13 +1641,13 @@ section {
   overflow: hidden;
 }
 
-.recent-posts .post-img {
+.recent-posts .note-img {
   max-height: 240px;
   margin: -30px -30px 15px -30px;
   overflow: hidden;
 }
 
-.recent-posts .post-category {
+.recent-posts .note-category {
   font-size: 16px;
   color: #6f6f6f;
   margin-bottom: 10px;
@@ -1669,18 +1669,18 @@ section {
   color: var(--color-primary);
 }
 
-.recent-posts .post-author-img {
+.recent-posts .note-author-img {
   width: 50px;
   border-radius: 50%;
   margin-right: 15px;
 }
 
-.recent-posts .post-author {
+.recent-posts .note-author {
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-.recent-posts .post-date {
+.recent-posts .note-date {
   font-size: 14px;
   color: #3c3c3c;
   margin-bottom: 0;
@@ -1856,6 +1856,19 @@ section {
 }
 
 /*--------------------------------------------------------------
+# more buttons
+--------------------------------------------------------------*/
+.more-btn{
+  width:auto;
+  padding: 10px 30px 10px 30px;
+  background-color:#020e24;
+  color: #fff;
+  border-radius:10px;
+}
+.more-btn:hover{
+  color: #f85a40;
+}
+/*--------------------------------------------------------------
 # notes
 --------------------------------------------------------------*/
 .notes .notes-pagination {
@@ -1895,6 +1908,16 @@ section {
   color: var(--color-white);
 }
 
+.notes .notes-btn{
+  width:50%;
+  padding: 5px;
+  background-color: #020e24;
+  color: #fff;
+  border-radius:20px;
+}
+.notes .notes-btn:hover{
+  color: #f85a40;
+}
 /*--------------------------------------------------------------
 # notes Posts List
 --------------------------------------------------------------*/
@@ -1906,13 +1929,13 @@ section {
   overflow: hidden;
 }
 
-.notes .posts-list .post-img {
+.notes .posts-list .note-img {
   max-height: 100%;
   margin: -30px -30px 15px -30px;
   overflow: hidden;
 }
 
-.notes .posts-list .post-category {
+.notes .posts-list .note-category {
   font-size: 16px;
   color: #555555;
   margin-bottom: 10px;
@@ -1934,18 +1957,18 @@ section {
   color: var(--color-primary);
 }
 
-.notes .posts-list .post-author-img {
+.notes .posts-list .note-author-img {
   width: 50px;
   border-radius: 50%;
   margin-right: 15px;
 }
 
-.notes .posts-list .post-author-list {
+.notes .posts-list .note-author-list {
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-.notes .posts-list .post-date {
+.notes .posts-list .note-date {
   font-size: 14px;
   color: #3c3c3c;
   margin-bottom: 0;
@@ -1960,7 +1983,7 @@ section {
   border-radius: 10px;
 }
 
-.notes .notes-details .post-img {
+.notes .notes-details .note-img {
   margin: -30px -30px 20px -30px;
   overflow: hidden;
   border-radius: 10px 10px 0 0;
@@ -2101,19 +2124,19 @@ section {
   padding-left: 5px;
 }
 
-.notes .post-author {
+.notes .note-author {
   padding: 20px;
   margin-top: 30px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
-.notes .post-author img {
+.notes .note-author img {
   max-width: 120px;
   margin-right: 20px;
 }
 
-.notes .post-author h4 {
+.notes .note-author h4 {
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 0px;
@@ -2121,16 +2144,16 @@ section {
   color: var(--color-default);
 }
 
-.notes .post-author .social-links {
+.notes .note-author .social-links {
   margin: 0 10px 10px 0;
 }
 
-.notes .post-author .social-links a {
+.notes .note-author .social-links a {
   color: rgba(34, 34, 34, 0.5);
   margin-right: 5px;
 }
 
-.notes .post-author p {
+.notes .note-author p {
   font-style: italic;
   color: rgba(108, 117, 125, 0.8);
   margin-bottom: 0;
@@ -2225,7 +2248,7 @@ section {
   font-size: 14px;
 }
 
-.notes .sidebar .recent-posts .post-item+.post-item {
+.notes .sidebar .recent-posts .note-item+.note-item {
   margin-top: 15px;
 }
 
