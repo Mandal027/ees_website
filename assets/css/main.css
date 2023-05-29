@@ -15,6 +15,7 @@
 :root {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: var(--font-default);
   color: var(--color-default);
@@ -228,6 +229,7 @@ section {
   padding-left: 5px;
   color: #fff;
 }
+
 @media (max-width: 415px) {
 
   .topbar .contact-info i a,
@@ -239,6 +241,7 @@ section {
     font-size: 16px;
   }
 }
+
 @media (max-width: 575px) {
 
   .topbar .contact-info i a,
@@ -275,7 +278,7 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  height:auto;
+  height: auto;
   background-color: var(--color-primary);
 }
 
@@ -940,9 +943,9 @@ section {
   font-size: 56px;
   transition: ease-in-out 0.3s;
   position: relative;
-  z-index:2;
+  z-index: 2;
   left: 16px;
-  top:-8px;
+  top: -8px;
 }
 
 .domains .domain-item .icon:before {
@@ -1391,7 +1394,7 @@ section {
 .team .member .social {
   margin-top: 15px;
   margin-bottom: 10px;
-  display:inline-flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
@@ -1418,11 +1421,12 @@ section {
   margin: 0 2px;
 }
 
-.team button{
+.team button {
   align-self: center;
   border-radius: 10px;
   border: none;
 }
+
 /*--------------------------------------------------------------
 # Frequently Asked Questions Section
 --------------------------------------------------------------*/
@@ -1582,11 +1586,12 @@ section {
 @media (min-width: 1200px) {
   .home {
     background-attachment: fixed;
-    height:auto;
+    height: auto;
   }
-  .home .icon-boxes{
+
+  .home .icon-boxes {
     position: relative;
-    top:75px;
+    top: 75px;
   }
 }
 
@@ -1599,19 +1604,7 @@ section {
   color: #fff;
   text-align: center;
 }
-.glaze {
-  line-height: 0.70em;
-  outline: none;
-  animation: animate 2s linear 1;
-}
-@keyframes animate {
-  0%,10%,20%,40%,55%,70%,80%,90%,92%,95% {
-    opacity: 0;
-  }
-  18.1%,20%,28.1%,40%,55%,65%,80%,90.1%,93.2%,100% {
-    opacity: 1;
-  }
-}
+
 .home h4 {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
@@ -1658,6 +1651,7 @@ section {
   color: #fff;
 }
 
+
 @media (max-width: 640px) {
   .home h2 {
     font-size: 36px;
@@ -1685,6 +1679,7 @@ section {
     height: calc(50% + 20px);
     background-color: #fff;
   }
+
   .home h2 {
     font-size: 36px;
     text-align: center;
@@ -1736,19 +1731,37 @@ section {
   color: #fff;
 }
 
+.glaze {
+  line-height: 0.70em;
+  outline: none;
+  animation: animate 2s linear 1;
+}
+
+@keyframes animate {
+  0%, 10%, 20%, 40%, 55%, 70%, 80%, 90%, 92%, 95% {
+    opacity: 0;
+  }
+
+  18.1%, 20%, 28.1%, 40%, 55%, 65%, 80%, 90.1%, 93.2%, 100% {
+    opacity: 1;
+  }
+}
+
 /*--------------------------------------------------------------
 # more buttons
 --------------------------------------------------------------*/
-.more-btn{
-  width:auto;
+.more-btn {
+  width: auto;
   padding: 10px 30px 10px 30px;
-  background-color:#020e24;
+  background-color: #020e24;
   color: #fff;
-  border-radius:10px;
+  border-radius: 10px;
 }
-.more-btn:hover{
+
+.more-btn:hover {
   color: #f85a40;
 }
+
 /*--------------------------------------------------------------
 # notes
 --------------------------------------------------------------*/
@@ -1789,16 +1802,18 @@ section {
   color: var(--color-white);
 }
 
-.notes .notes-btn{
-  width:50%;
+.notes .notes-btn {
+  width: 50%;
   padding: 5px;
   background-color: #020e24;
   color: #fff;
-  border-radius:20px;
+  border-radius: 20px;
 }
-.notes .notes-btn:hover{
+
+.notes .notes-btn:hover {
   color: #f85a40;
 }
+
 /*--------------------------------------------------------------
 # notes Posts List
 --------------------------------------------------------------*/
@@ -2291,7 +2306,7 @@ section {
 
 .notes .comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color:#020e24;
+  border-color: #020e24;
 }
 
 .notes .comments .reply-form .form-group {
@@ -2422,6 +2437,7 @@ section {
 
 .footer .credits a {
   color: #fff;
+  text-decoration: underline;
 }
 
 /* main background images */
@@ -2460,6 +2476,7 @@ section {
     background-attachment: fixed;
   }
 }
+
 .bg-alumni {
   width: 100%;
   position: relative;
@@ -2477,6 +2494,7 @@ section {
     background-attachment: fixed;
   }
 }
+
 .bg-edit {
   width: 100%;
   position: relative;
@@ -2494,6 +2512,7 @@ section {
     background-attachment: fixed;
   }
 }
+
 .bg-books {
   width: 100%;
   position: relative;
@@ -2511,6 +2530,7 @@ section {
     background-attachment: fixed;
   }
 }
+
 .bg-events {
   width: 100%;
   position: relative;
@@ -2528,6 +2548,7 @@ section {
     background-attachment: fixed;
   }
 }
+
 .bg-notes {
   width: 100%;
   position: relative;
@@ -2545,6 +2566,7 @@ section {
     background-attachment: fixed;
   }
 }
+
 .bg-pyqs {
   width: 100%;
   position: relative;
@@ -2562,6 +2584,7 @@ section {
     background-attachment: fixed;
   }
 }
+
 .bg-research {
   width: 100%;
   position: relative;
@@ -2579,6 +2602,7 @@ section {
     background-attachment: fixed;
   }
 }
+
 .bg-sports {
   width: 100%;
   position: relative;
@@ -2596,6 +2620,7 @@ section {
     background-attachment: fixed;
   }
 }
+
 .bg-training {
   width: 100%;
   position: relative;
@@ -2613,6 +2638,7 @@ section {
     background-attachment: fixed;
   }
 }
+
 .bg-tap {
   width: 100%;
   position: relative;
