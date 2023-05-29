@@ -317,7 +317,7 @@ section {
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
   .navbar {
     padding: 0;
   }
@@ -1582,7 +1582,7 @@ section {
 @media (min-width: 1200px) {
   .home {
     background-attachment: fixed;
-    height: 75vh;
+    height:auto;
   }
   .home .icon-boxes{
     position: relative;
@@ -1599,11 +1599,24 @@ section {
   color: #fff;
   text-align: center;
 }
-
-.home p {
+.glaze {
+  line-height: 0.70em;
+  outline: none;
+  animation: animate 2s linear 1;
+}
+@keyframes animate {
+  0%,10%,20%,40%,55%,70%,80%,90%,92%,95% {
+    opacity: 0;
+  }
+  18.1%,20%,28.1%,40%,55%,65%,80%,90.1%,93.2%,100% {
+    opacity: 1;
+  }
+}
+.home h4 {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .home .btn-get-started {
