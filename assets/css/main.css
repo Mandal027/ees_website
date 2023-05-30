@@ -95,7 +95,8 @@ section {
 }
 @media screen and (max-width: 415px) {
   .page-head .page-header h2 {
-    font-size: 22px;
+    font-size: 22git pull
+    px;
     font-weight: 500;
     color: #fff;
     font-family: var(--font-secondary);
@@ -1427,15 +1428,38 @@ section {
 }
 
 
-@media (max-width: 640px) {
+@media screen and (max-width: 415px) {
   .home h2 {
-    font-size: 36px;
+    font-size: 20px;
     text-align: center;
   }
 
   .home .btn-get-started,
   .home .btn-watch-video {
-    font-size: 14px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .home h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .home .btn-get-started,
+  .home .btn-watch-video {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .home .btn-get-started,
+  .home .btn-watch-video {
+    font-size: 18px;
   }
 }
 
@@ -1456,7 +1480,7 @@ section {
   }
 
   .home h2 {
-    font-size: 36px;
+    font-size: 56px;
     text-align: center;
   }
 
