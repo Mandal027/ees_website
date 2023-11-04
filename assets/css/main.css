@@ -619,7 +619,6 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
     z-index: 9996;
   }
 }
@@ -908,20 +907,18 @@ section {
 
 .gallarys .gallary-wrap {
   padding-left: 10px;
+  background-color: white;
 }
 
 .gallarys .gallary-item {
   box-sizing: content-box;
   padding: 10px;
-  box-shadow: 0px 0 15px rgba(0, 0, 0, 0.1);
   position: relative;
-  background: #71666636;
   border-radius: 0px 10px 0px 10px;
 }
 
 .gallarys .gallary-item .gallary-img {
   width: 100%;
-  height: 400px;
   border-radius: 10px;
 }
 
@@ -1058,6 +1055,7 @@ section {
   color: #000000;
   transition: 0.3s;
   border-radius: 50%;
+  margin: 4px;
   width: 40px;
   height: 40px;
   display: flex;
@@ -1372,7 +1370,7 @@ section {
   background: #020e24;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
-  border-radius: 8px;
+  border-radius: 20px;
   z-index: 1;
   height: 100%;
   width: 100%;
@@ -1430,10 +1428,11 @@ section {
 --------------------------------------------------------------*/
 .more-btn {
   width: auto;
-  padding: 10px 30px 10px 30px;
+  padding: 0.4rem 2rem;
   background-color: #020e24;
   color: #fff;
   border-radius: 10px;
+  transition-duration: 0.3s;
 }
 
 .more-btn:hover {

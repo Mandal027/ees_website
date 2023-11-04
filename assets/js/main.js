@@ -231,9 +231,17 @@ document.addEventListener('DOMContentLoaded', () => {
         slidesPerView: 1,
         spaceBetween: 40
       },
-
-      1200: {
+      500:{
+        slidesPerView: 2,
+      },
+      700:{
+        slidesPerView:3,
+      },
+      840:{
         slidesPerView: 3,
+      },
+      1200: {
+        slidesPerView: 4,
       }
     }
   });
