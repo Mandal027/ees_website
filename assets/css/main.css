@@ -41,7 +41,7 @@ h6 {
 }
 
 section {
-  padding: 60px 0;
+  padding: 30px 0 20px 0;
   overflow: hidden;
 }
 
@@ -51,14 +51,13 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .section-header h2 {
   font-size: 32px;
   font-weight: 600;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -905,6 +904,19 @@ section {
 }
 
 
+/* Gallary */
+.team .container .gallary-item{
+  margin: 5px;
+
+}
+.team .container .slides-4{
+  background-color: white;
+  height: auto;
+}
+.team .container .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
 .gallarys .gallary-wrap {
   padding-left: 10px;
   background-color: white;
