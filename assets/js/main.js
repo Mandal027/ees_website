@@ -249,10 +249,10 @@ document.addEventListener('DOMContentLoaded', () => {
   new Swiper('.slides-4', {
     speed: 600,
     loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
+    // autoplay: {
+    //   delay: 5000,
+    //   disableOnInteraction: false
+    // },
     slidesPerView: 'auto',
     pagination: {
       el: '.swiper-pagination',
@@ -269,9 +269,6 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       500:{
         slidesPerView: 2,
-      },
-      700:{
-        slidesPerView:3,
       },
       840:{
         slidesPerView: 3,

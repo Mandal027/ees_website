@@ -2177,7 +2177,30 @@ section {
   overflow: hidden;
   height: auto;
 }
-
+.bg-volt-edge {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/volt-edge/bg.JPG) center center;
+  background-size: cover;
+  background-position: top;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
+.bg-vid-youth {
+  width: 100%;
+  position: relative;
+  background: var(--color-primary);
+  padding: 60px 0 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallarys/vid-bg.JPG) center center;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px;
+  overflow: hidden;
+  height: auto;
+}
 @media (min-width: 1200px) {
   .bg-alumni {
     background-attachment: fixed;
