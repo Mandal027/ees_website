@@ -2171,7 +2171,7 @@ section {
   position: relative;
   background: var(--color-primary);
   padding: 60px 0 0 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/alumnipage.jpg) center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/alumni/alumni-bg.JPG) center center;
   background-size: cover;
   border-radius: 0px;
   overflow: hidden;
